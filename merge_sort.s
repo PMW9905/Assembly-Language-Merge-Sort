@@ -71,12 +71,6 @@ ploop:
 incStep:
 	sll	$s2, $s2, 1	#doubles the step
 	beqz	$zero, mCall	#calls mCall
-	
-
-
-
-
-
 
 merge:
 	add	$t1, $s3, 0
